@@ -1,2 +1,3 @@
 #!/bin/bash
-cp -r patch/* node_modules
+chmod u+w ./playground/ios/Pods/Flipper/xplat/Flipper/FlipperTransportTypes.h
+cp -r patch/* ./
